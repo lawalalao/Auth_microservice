@@ -1,6 +1,6 @@
 {
   "name": "microservice-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Un microservice d'authentification pour les applications Node.js utilisant Express.",
   "main": "server.js",
   "scripts": {
