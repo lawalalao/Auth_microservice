@@ -127,6 +127,14 @@ app.get('/api/protected-route', authMiddleware, (req, res) => {
 
 Les mots de passe sont hashés en utilisant bcrypt avant d'être stockés dans la base de données. Les tokens JWT sont signés avec une clé secrète.
 
+## Test
+
+pour lancer vos tests
+
+```bash
+npm test
+```
+
 ## Contribution
 
 Les contributions sont les bienvenues. Veuillez ouvrir une issue pour discuter de ce que vous aimeriez changer ou soumettre une Pull Request.
