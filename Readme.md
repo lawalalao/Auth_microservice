@@ -2,13 +2,30 @@
 
 Ce microservice fournit une solution simple et sécurisée pour l'authentification et la gestion des sessions dans vos applications Node.js utilisant Express. Il utilise JWT (JSON Web Tokens) pour la gestion des sessions et bcrypt pour le hashage des mots de passe.
 
+- Elle est aussi installable sous forme de package via npm dans vos applications.
+
+## Installation
+
+Vous pouvez installer le microservice d'authentification via npm :
+
+```bash
+npm install nom_du_package
+```
+
+```bash
+const authMicroservice = require('nom_du_package');
+
+// Utilisez les routes et les middlewares fournis par le microservice
+app.use('/api/user', authMicroservice.routes);
+```
+
 ## Fonctionnalités
 
 - Inscription d'utilisateurs
 - Connexion d'utilisateurs
 - Middleware pour la protection des routes
 
-## Comment démarrer
+## Comment démarrer sous forme de Microservices/api
 
 ### Prérequis
 

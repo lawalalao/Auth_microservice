@@ -1,14 +1,24 @@
 {
   "name": "microservice-auth",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Un microservice d'authentification pour les applications Node.js utilisant Express.",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lawalalao/Auth_microservice"
+  },
+  "keywords": [
+    "authentification",
+    "express",
+    "jwt",
+    "microservice"
+  ],
+  "author": "Lawal ALAO",
+  "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
