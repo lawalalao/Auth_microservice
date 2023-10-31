@@ -9,11 +9,11 @@ Ce microservice fournit une solution simple et sécurisée pour l'authentificati
 Vous pouvez installer le microservice d'authentification via npm :
 
 ```bash
-npm install nom_du_package
+npm install microservice-auth
 ```
 
 ```bash
-const authMicroservice = require('nom_du_package');
+const authMicroservice = require('microservice-auth');
 
 // Utilisez les routes et les middlewares fournis par le microservice
 app.use('/api/user', authMicroservice.routes);
