@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/lawalalao/Auth_microservice"
   },
+  "bin": {
+  "microservice-auth": "./cli.js"
+  },
   "keywords": [
     "authentification",
     "express",
