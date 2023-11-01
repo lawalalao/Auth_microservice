@@ -1,6 +1,6 @@
 {
   "name": "microservice-auth",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Un microservice d'authentification pour les applications Node.js utilisant Express.",
   "main": "server.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/lawalalao/Auth_microservice"
   },
   "bin": {
-  "microservice-auth": "./cli.js"
+    "microservice-auth": "./cli.js"
   },
   "keywords": [
     "authentification",
