@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "mocha --exit"
+    "test": "mocha --exit",
+    "postinstall": "node scripts/setup.js"
   },
   "repository": {
     "type": "git",

@@ -18,7 +18,7 @@ mongoose.connect(uri)
 
 
 // Importez vos routes
-const authRoutes = require('./routes/authRoutes');
+const authRoutes = require('./src/routes/authRoutes');
 
 // Route middlewares
 app.use('/api/user', authRoutes);
